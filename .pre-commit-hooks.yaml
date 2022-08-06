@@ -1,0 +1,6 @@
+- id: docker-pytest
+  name: docker-pytest
+  description: run pytest tests in docker
+  version: 0.0.1
+  entry: docker-pytest
+  language: python
