@@ -1,9 +1,10 @@
 """This pre-commit hook allows to run pytest tests in docker."""
 import sys
 
-from docker_utils import (is_docker_compose_available,
-                          is_docker_daemon_running,
-                          is_valid_docker_compose_config, run_tests_docker)
+from docker_pytest.docker_utils import (is_docker_compose_available,
+                                        is_docker_daemon_running,
+                                        is_valid_docker_compose_config,
+                                        run_tests_docker)
 
 # TODO check pytest call
 # TODO handle docker startup errors
